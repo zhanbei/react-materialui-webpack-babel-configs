@@ -13,3 +13,6 @@ cd "${BASH_SOURCE%/*}";
 
 # @see https://stackoverflow.com/questions/16787916/difference-between-two-directories-in-linux
 diff -qr ./template .. | grep './template'
+
+# Show the differences of package.json
+node ./diff-package.js
