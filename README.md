@@ -1,25 +1,7 @@
-# Template Manager
+# React, MaterialUi, WebPack, and Babel Configurations
 
-<!-- > Titles: *Template Manager*, *Project Template*. -->
+<!-- > Titles: *React, MaterialUi, WebPack, and Babel Configurations*, *React App Configurations*. -->
 
-<!-- > 2018-05-05T17:32:21+0800 -->
+<!-- > 2018-05-04T01:10:32+0800 -->
 
-A template manager to make it easier to maintain a group of similar projects.
-
-## Motivations
-
-There are projects that use the same technical stack and therefore share some common files, which makes it painful to
-
-0. create new projects with a set of existed configures;
-0. maintain the configures of existed projects;
-0. upgrade the configures of existed projects;
-
-and this *Template Manager* is created to make it easier to maintain those projects.
-
-## How does it work?
-
-*Template Manager* contains the script [`diff-project.sh`](diff-project.sh) to show the differences between the template configurations and those of the existed project, then you can decide whether to accept files from the template using [`init-or-update-project.sh`](init-or-update-project.sh).
-
-## Usage
-
-This project is designed to be forked, then you are free to add your own configurations for a series of projects alike and rename the project to a more specific name.
+All the files here in the `template` folder should be synchronized to all react app projects.
