@@ -15,3 +15,11 @@ There are projects that use the same technical stack and therefore share some co
 0. upgrade the configures of existed projects;
 
 and this *Template Manager* is created to make it easier to maintain those projects.
+
+## How does it work?
+
+*Template Manager* contains the script [`diff-project.sh`](diff-project.sh) to show the differences between the template configurations and those of the existed project, then you can decide whether to accept files from the template using [`init-or-update-project.sh`](init-or-update-project.sh).
+
+## Usage
+
+This project is designed to be forked, then you are free to add your own configurations for a series of projects alike and rename the project to a more specific name.
