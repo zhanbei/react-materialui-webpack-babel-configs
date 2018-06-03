@@ -11,7 +11,7 @@ npm install --save-dev \
 	babel-plugin-transform-object-rest-spread \
 	babel-preset-env \
 	babel-preset-react \
-	material-ui@next \
+	@material-ui/core \
 	@material-ui/icons \
 	prop-types \
 	react \
