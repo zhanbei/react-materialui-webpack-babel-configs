@@ -6,13 +6,17 @@ const templatePackage = {
 	devDependencies: require('./package/devDpendencies'),
 };
 
-if (JSON.stringify(targetPackage.devDependencies) !== JSON.stringify(templatePackage.devDependencies)) {
-	console.log('Filed package.json#devDependencies are different from the template.');
+if (!targetPackage.devDependencies) {
+	console.log('Field package.json#devDependencies is empty.');
+} else if (JSON.stringify(targetPackage.devDependencies) !== JSON.stringify(templatePackage.devDependencies)) {
+	console.log('Field package.json#devDependencies is different from the template.');
 	diffStruct(templatePackage.devDependencies, targetPackage.devDependencies);
 }
 
-if (JSON.stringify(targetPackage.scripts) !== JSON.stringify(templatePackage.scripts)) {
-	console.log('Filed package.json#scripts are different from the template.');
+if (!targetPackage.scripts) {
+	console.log('Field package.json#scripts is empty.');
+} else if (JSON.stringify(targetPackage.scripts) !== JSON.stringify(templatePackage.scripts)) {
+	console.log('Field package.json#scripts is different from the template.');
 	diffStruct(templatePackage.scripts, targetPackage.scripts);
 }
 
