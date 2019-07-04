@@ -1,5 +1,5 @@
 {
-  "build": "webpack --config production.config.js | tee -a logs/build-production_`date +%Y-%m-%d`.txt",
-  "build-development": "webpack --config development.config.js | tee -a logs/build-development_`date +%Y-%m-%d`.txt",
+  "start": "webpack-dev-server --open --config webpack.dev.js --port 8000 --hot --host 0.0.0.0",
+  "build": "webpack --config webpack.prod.js | tee -a logs/build-production_`date +%Y-%m-%d`.txt",
   "test": "echo 'Error: no test specified yet!' && exit 1"
 }

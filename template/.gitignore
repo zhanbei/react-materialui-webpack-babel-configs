@@ -1,3 +1,10 @@
 
+.idea
+.vscode
+
+
+dist
+
+
 # Ignore the installed node modules.
 node_modules

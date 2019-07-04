@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+	"baseUrl": ".",
+	"outDir": "ts-dist",
+	"module": "esnext",
+	"target": "es5",
+	"lib": [
+	  "esnext",
+	  "dom"
+	],
+	"sourceMap": true,
+	"allowJs": false,
+	// @see https://github.com/Microsoft/TypeScript-React-Starter/issues/8
+	"allowSyntheticDefaultImports": true,
+	"jsx": "react",
+	"moduleResolution": "node",
+	"rootDir": "src",
+	"forceConsistentCasingInFileNames": true,
+	"noImplicitReturns": true,
+	"noImplicitThis": true,
+	"noImplicitAny": true,
+	"importHelpers": true,
+	"strictNullChecks": true,
+	"suppressImplicitAnyIndexErrors": true,
+	"noUnusedLocals": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+	"useBabel": true,
+	"babelCore": "@babel/core"
+  },
+  "exclude": [
+	"node_modules",
+	"build",
+	"dist"
+  ]
+}
