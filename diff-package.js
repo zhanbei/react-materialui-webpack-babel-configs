@@ -3,7 +3,7 @@
 const targetPackage = require('../package');
 const templatePackage = {
 	scripts: require('./package/scripts'),
-	devDependencies: require('./package/devDpendencies'),
+	devDependencies: require('./package/devDependencies'),
 };
 
 if (!targetPackage.devDependencies) {
